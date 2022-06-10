@@ -1,0 +1,21 @@
+#vm deployment using python##
+steps#
+#create project folder
+#create requiremnts.txt for azure dependncies# copyy the azure dependcies to that file#
+#pip install -r requirements.txt--run this command for download the azure dependcies and libraries from 
+requirements.txt file
+#before run the command we need to install the python and pip packages make sure.
+#create azure_vm.py file for create virtual machine in azure
+#copy the required code to file#
+#just we nee azure subscription  for vm deployment##
+#very  less code in python #
+#URL FOR code:
+https://davemccollough.com/2020/12/19/provision-a-virtual-machine-in-azure-using-python/
+#for git repo:https://github.com/dave-mccollough/python_azure_vm.git
+
+#Now deployed all services#
+
+#clean up the all services by using AZURE CLI##
+az group delete -n python-azure-vm-mytest-rg  #if u are not logged in azure then login with command3
+
+#az login#  mention credentials#
